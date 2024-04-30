@@ -7,7 +7,7 @@ import {
     updateBookPartial,
     deleteBook,
 } from '../../services/books/books.service';
-import { Book } from '../../models/book';
+import { Book } from '../../types/book';
 
 /**
  * Retrieves all books from the collection and sends them as a JSON response.

@@ -1,4 +1,4 @@
-import { Book } from '../../models/book';
+import { Book } from '../../types/book';
 import { validateBook } from '../../routers/books/books.validator';
 import { loadBooks, writeBooks } from '../../utils/helpers';
 

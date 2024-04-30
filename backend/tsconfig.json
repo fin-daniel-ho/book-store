@@ -6,7 +6,7 @@
     "baseUrl": "./src",
     "paths": {
         "*": ["*", "src/*"],
-        "@models/*": ["src/models/*"]
+        "@models/*": ["src/types/*"]
     },
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,

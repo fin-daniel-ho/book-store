@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { Book } from '../models/book';
+import { Book } from '../types/book';
 
 const dbPath = path.join(__dirname, '../../db.json');
 

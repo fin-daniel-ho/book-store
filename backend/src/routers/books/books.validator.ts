@@ -1,4 +1,4 @@
-import { Book } from '../../models/book';
+import { Book } from '../../types/book';
 
 /**
  * Validates a book object to ensure it meets the required criteria.

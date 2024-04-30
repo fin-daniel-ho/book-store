@@ -1,12 +1,16 @@
 import express, { Express } from 'express';
 import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
+import cors from 'cors';
 import booksRouter from './routers/books/books.router';
 
 dotenv.config();
 
 const app: Express = express();
 const port = process.env.PORT || 5500;
+
+// Enable CORS
+app.use(cors());
 
 // Middleware
 app.use(bodyParser.json());

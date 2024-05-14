@@ -11,8 +11,8 @@ This is a full-stack Single page application for a book store. The frontend is b
 
 ### Prerequisites
 
-- Node.js
-- npm
+- Node.js >= 18.20.2
+- npm >= 10.5.0
 
 ### Installing
 
